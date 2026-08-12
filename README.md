@@ -18,4 +18,27 @@ This is a **single-file machine learning example** that predicts whether gold pr
 
 ### The Simple Math
 
-Logistic regression calculates probability of "up":
+Logistic regression calculates probability of "up": Probability = 1 / (1 + e^-(b0 + b1x1 + b2x2 + ...))
+
+- If probability > 50% → predict UP
+- If probability < 50% → predict DOWN
+
+The model learns the weights (b0, b1, b2...) from historical data.
+
+## How to Run
+
+### 1. Clone and setup
+```bash
+git clone <your-repo-url>
+cd gold-forex-analyzer
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# Install requirements
+pip install -r requirements.txt
+
+# Run the program
+python gold_predictor.py
+
