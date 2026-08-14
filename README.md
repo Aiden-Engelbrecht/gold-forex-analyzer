@@ -31,7 +31,6 @@ A PNG dashboard (gold_signal_YYYYMMDD.png) with all trading information
 Terminal output showing the signal, confidence, entry price, stop-loss, and take-profit levels
 
 ### Requirements
-text
 pandas, numpy, scikit-learn, yfinance, matplotlib
-Disclaimer
+
 ⚠️ For educational purposes only. Not financial advice. Trading involves substantial risk of loss. Always backtest before using with real money.
