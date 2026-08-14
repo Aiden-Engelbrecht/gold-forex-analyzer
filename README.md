@@ -35,9 +35,3 @@ text
 pandas, numpy, scikit-learn, yfinance, matplotlib
 Disclaimer
 ⚠️ For educational purposes only. Not financial advice. Trading involves substantial risk of loss. Always backtest before using with real money.
-
-text
-
----
-
-This is clean, professional, and explains everything in one clear paragraph without being overwhelming!
